@@ -1,6 +1,6 @@
 package com.example.suhaas.mvpapp.di.component;
 
-import com.example.suhaas.mvpapp.MainActivity;
+import com.example.suhaas.mvpapp.ui.main.MainActivity;
 import com.example.suhaas.mvpapp.di.PerActivity;
 import com.example.suhaas.mvpapp.di.module.ActivityModule;
 
