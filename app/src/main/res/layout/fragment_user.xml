@@ -2,12 +2,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.suhaas.mvpapp.ui.main.UserFragment">
+    tools:context="com.example.suhaas.mvpapp.ui.main.useraccount.UserFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="User fragment" />
+
+    <Button
+        android:id="@+id/add_medicine_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#555"
+        android:layout_gravity="center"
+        android:onClick="onAddField"
+        android:textColor="#FFF"
+        android:text="Add medicine"
+        android:paddingLeft="5dp"/>
 
 </FrameLayout>
